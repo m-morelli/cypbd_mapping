@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_WI4v4DJREeOkgqCnktgOxA" name="Mapping">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn69gDJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_LHi7McBgEeOUtrDJLDoM0w" name="Mapping" nsURI="http:///schemas/Mapping/_LHi7MMBgEeOUtrDJLDoM0w/15" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHi7MsBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHpB0MBgEeOUtrDJLDoM0w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB0cBgEeOUtrDJLDoM0w" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB0sBgEeOUtrDJLDoM0w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB08BgEeOUtrDJLDoM0w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB1MBgEeOUtrDJLDoM0w" key="Date" value="2014-04-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB1cBgEeOUtrDJLDoM0w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_xAEiUVW_EeOFHrLWOoIfiA" name="Mapping" nsURI="http:///schemas/Mapping/_xAEiUFW_EeOFHrLWOoIfiA/14" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAEiUlW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKo8FW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xAKo8VW_EeOFHrLWOoIfiA" key="Version" value="0.0.15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xAKo8lW_EeOFHrLWOoIfiA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xAKo81W_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xAKo9FW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xAKo9VW_EeOFHrLWOoIfiA" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_N7-GYFW_EeOFHrLWOoIfiA" name="Mapping" nsURI="http:///schemas/Mapping/_N784QFW_EeOFHrLWOoIfiA/13" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GYVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N8Dl8lW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8Dl81W_EeOFHrLWOoIfiA" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8Dl9FW_EeOFHrLWOoIfiA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8Dl9VW_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8Dl9lW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8Dl91W_EeOFHrLWOoIfiA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GYlW_EeOFHrLWOoIfiA" name="Allocation" abstract="true">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GY1W_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LUhYcFW-EeOFHrLWOoIfiA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations/Allocate"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GZVW_EeOFHrLWOoIfiA" name="FrameToBusMap" eSuperTypes="_N7-GYlW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GZlW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_NxntAFW-EeOFHrLWOoIfiA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_N7-GZ1W_EeOFHrLWOoIfiA" name="offset" ordered="false" lowerBound="1" eType="_N7-GalW_EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_N7-GalW_EeOFHrLWOoIfiA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-Ga1W_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GbFW_EeOFHrLWOoIfiA" name="FunctionToThreadMap" eSuperTypes="_N7-GYlW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GbVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cWlLQFW-EeOFHrLWOoIfiA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_N7-GblW_EeOFHrLWOoIfiA" name="mapOrder" ordered="false" lowerBound="1" eType="_N7-GalW_EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GcVW_EeOFHrLWOoIfiA" name="SignalMap" abstract="true" eSuperTypes="_N7-GYlW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GclW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qtXDkFW-EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GdFW_EeOFHrLWOoIfiA" name="ThreadToCPUMap" eSuperTypes="_N7-GYlW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GdVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uCLqUFW-EeOFHrLWOoIfiA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_N7-GdlW_EeOFHrLWOoIfiA" name="coreAfn" ordered="false" lowerBound="1" eType="_N7-GalW_EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GeVW_EeOFHrLWOoIfiA" name="SignalToSharedResMap" eSuperTypes="_N7-GcVW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GelW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__brswFW-EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7-GfFW_EeOFHrLWOoIfiA" name="SignalToFrameMap" eSuperTypes="_N7-GcVW_EeOFHrLWOoIfiA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7-GfVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DqFm4FW_EeOFHrLWOoIfiA"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_WL2EIVW6EeOQ240bS7TiPg" name="Mapping" nsURI="http:///schemas/Mapping/_WL2EIFW6EeOQ240bS7TiPg/12" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL2EIlW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL9Y4FW6EeOQ240bS7TiPg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y4VW6EeOQ240bS7TiPg" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y4lW6EeOQ240bS7TiPg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y41W6EeOQ240bS7TiPg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y5FW6EeOQ240bS7TiPg" key="Date" value="2013-11-25"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y5VW6EeOQ240bS7TiPg" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Qu58EUx_EeODI5Tl-qNSOg" name="Mapping" nsURI="http:///schemas/Mapping/_Qu58EEx_EeODI5Tl-qNSOg/11" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu58Ekx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu-0kEx_EeODI5Tl-qNSOg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0kUx_EeODI5Tl-qNSOg" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0kkx_EeODI5Tl-qNSOg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0k0x_EeODI5Tl-qNSOg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0lEx_EeODI5Tl-qNSOg" key="Date" value="2013-11-13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0lUx_EeODI5Tl-qNSOg" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_83meoUKzEeOqcoZgfU4APw" name="Mapping" nsURI="http:///schemas/Mapping/_83meoEKzEeOqcoZgfU4APw/10" nsPrefix="Mapping">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83meokKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83rXIEKzEeOqcoZgfU4APw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXIUKzEeOqcoZgfU4APw" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXIkKzEeOqcoZgfU4APw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXI0KzEeOqcoZgfU4APw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXJEKzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXJUKzEeOqcoZgfU4APw" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_WmRRsEKzEeOqcoZgfU4APw" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_WmQqoEKzEeOqcoZgfU4APw/9" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmRRsUKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmU8NkKzEeOqcoZgfU4APw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmU8N0KzEeOqcoZgfU4APw" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmU8OEKzEeOqcoZgfU4APw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmU8OUKzEeOqcoZgfU4APw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmU8OkKzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmU8O0KzEeOqcoZgfU4APw" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_EEUZcUKzEeOqcoZgfU4APw" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_EEUZcEKzEeOqcoZgfU4APw/8" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEUZckKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEYrA0KzEeOqcoZgfU4APw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEYrBEKzEeOqcoZgfU4APw" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEYrBUKzEeOqcoZgfU4APw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEYrBkKzEeOqcoZgfU4APw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEYrB0KzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEYrCEKzEeOqcoZgfU4APw" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_B_z6ATf9EeOB4Pn9C2Kuiw" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_B_z6ADf9EeOB4Pn9C2Kuiw/7" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_z6Ajf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CAIqIDf9EeOB4Pn9C2Kuiw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAIqITf9EeOB4Pn9C2Kuiw" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAIqIjf9EeOB4Pn9C2Kuiw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAIqIzf9EeOB4Pn9C2Kuiw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAIqJDf9EeOB4Pn9C2Kuiw" key="Date" value="2013-10-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAIqJTf9EeOB4Pn9C2Kuiw" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_i3rZ0TWKEeOXq-IAh0J76Q" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_i3rZ0DWKEeOXq-IAh0J76Q/6" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3rZ0jWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3-UwDWKEeOXq-IAh0J76Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i3-UwTWKEeOXq-IAh0J76Q" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i3-UwjWKEeOXq-IAh0J76Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i3-UwzWKEeOXq-IAh0J76Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i3-UxDWKEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i3-UxTWKEeOXq-IAh0J76Q" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_0WyxgTWJEeOXq-IAh0J76Q" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_0WyxgDWJEeOXq-IAh0J76Q/5" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0WyxgjWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W3C8DWJEeOXq-IAh0J76Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0W3C8TWJEeOXq-IAh0J76Q" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0W3C8jWJEeOXq-IAh0J76Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0W3C8zWJEeOXq-IAh0J76Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0W3C9DWJEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0W3C9TWJEeOXq-IAh0J76Q" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_f3XK0DWHEeOXq-IAh0J76Q" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_f3WjwDWHEeOXq-IAh0J76Q/4" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3XK0TWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3bcQDWHEeOXq-IAh0J76Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3bcQTWHEeOXq-IAh0J76Q" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3bcQjWHEeOXq-IAh0J76Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3bcQzWHEeOXq-IAh0J76Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3bcRDWHEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3bcRTWHEeOXq-IAh0J76Q" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_CCFkMTWHEeOXq-IAh0J76Q" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_CCFkMDWHEeOXq-IAh0J76Q/3" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCFkMjWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCRxcDWHEeOXq-IAh0J76Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCRxcTWHEeOXq-IAh0J76Q" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCRxcjWHEeOXq-IAh0J76Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCRxczWHEeOXq-IAh0J76Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCRxdDWHEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCRxdTWHEeOXq-IAh0J76Q" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5L92ITTYEeOkgqCnktgOxA" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_5L92IDTYEeOkgqCnktgOxA/2" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5L92IjTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MUbcDTYEeOkgqCnktgOxA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MUbcTTYEeOkgqCnktgOxA" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MUbcjTYEeOkgqCnktgOxA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MUbczTYEeOkgqCnktgOxA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MUbdDTYEeOkgqCnktgOxA" key="Date" value="2013-10-14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MUbdTTYEeOkgqCnktgOxA" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_3rHgsTTTEeOkgqCnktgOxA" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_3rHgsDTTEeOkgqCnktgOxA/1" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rHgsjTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rcQ0DTTEeOkgqCnktgOxA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rcQ0TTTEeOkgqCnktgOxA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rcQ0jTTEeOkgqCnktgOxA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rcQ0zTTEeOkgqCnktgOxA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rcQ1DTTEeOkgqCnktgOxA" key="Date" value="2013-10-14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rcQ1TTTEeOkgqCnktgOxA" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_QoNRYDJYEeOkgqCnktgOxA" name="ConcurrencyAndInteraction" nsURI="http:///schemas/ConcurrencyAndInteraction/_Qn6WcDJYEeOkgqCnktgOxA/0" nsPrefix="ConcurrencyAndInteraction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoNRYTJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_LeLEMDJSEeOkgqCnktgOxA"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QpFbIDJYEeOkgqCnktgOxA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QpFbITJYEeOkgqCnktgOxA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QpFbIjJYEeOkgqCnktgOxA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QpFbIzJYEeOkgqCnktgOxA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QpFbJDJYEeOkgqCnktgOxA" key="Date" value="2013-10-11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QpFbJTJYEeOkgqCnktgOxA" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_LeLEMDJSEeOkgqCnktgOxA" name="Concurrency">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoV0QDJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_C6TG8MWEEeOOK-8sj3sylQ" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_C6QDoMWEEeOOK-8sj3sylQ/16" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6TG8cWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C60rYMWEEeOOK-8sj3sylQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C60rYcWEEeOOK-8sj3sylQ" key="Version" value="0.0.17"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C60rYsWEEeOOK-8sj3sylQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C60rY8WEEeOOK-8sj3sylQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C60rZMWEEeOOK-8sj3sylQ" key="Date" value="2014-04-16"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C60rZcWEEeOOK-8sj3sylQ" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_C6TG8sWEEeOOK-8sj3sylQ" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6TG88WEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_C6TG9MWEEeOOK-8sj3sylQ" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_C6TG98WEEeOOK-8sj3sylQ"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_C6TG98WEEeOOK-8sj3sylQ" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6TG-MWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_C6TG-cWEEeOOK-8sj3sylQ" name="priority" ordered="false" lowerBound="1" eType="_C6YmgcWEEeOOK-8sj3sylQ"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6TG_MWEEeOOK-8sj3sylQ" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6TG_cWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_C6TG_sWEEeOOK-8sj3sylQ" name="PeriodicThread" eSuperTypes="_C6TG98WEEeOOK-8sj3sylQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6TG_8WEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_C6absMWEEeOOK-8sj3sylQ" name="period" ordered="false" lowerBound="1" eType="_C6abssWEEeOOK-8sj3sylQ"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6THS8WEEeOOK-8sj3sylQ" name="MARTE_Library_MARTE_DataTypes_VSL_Expression" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THTMWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_bManMBEBEdyx6M3BlUjlCQ"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_C6THTcWEEeOOK-8sj3sylQ" name="MARTE_Library_BasicNFP_Types_SourceKind">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THTsWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:Enumeration" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_oMZzEBD-EdyybZnLxHsjyA"/>
+          </eAnnotations>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THT8WEEeOOK-8sj3sylQ" name="est"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THUMWEEeOOK-8sj3sylQ" name="meas" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THUcWEEeOOK-8sj3sylQ" name="calc" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THUsWEEeOOK-8sj3sylQ" name="req" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_C6THU8WEEeOOK-8sj3sylQ" name="MARTE_Library_BasicNFP_Types_StatisticalQualifierKind">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THVMWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:Enumeration" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_0N52EBD-EdyybZnLxHsjyA"/>
+          </eAnnotations>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THVcWEEeOOK-8sj3sylQ" name="max"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THVsWEEeOOK-8sj3sylQ" name="min" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THV8WEEeOOK-8sj3sylQ" name="mean" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THWMWEEeOOK-8sj3sylQ" name="range" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THWcWEEeOOK-8sj3sylQ" name="percent" value="4"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THWsWEEeOOK-8sj3sylQ" name="distrib" value="5"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THW8WEEeOOK-8sj3sylQ" name="determ" value="6"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THXMWEEeOOK-8sj3sylQ" name="other" value="7"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THXcWEEeOOK-8sj3sylQ" name="variance" value="8"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_C6THXsWEEeOOK-8sj3sylQ" name="MARTE_Library_BasicNFP_Types_DirectionKind">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THX8WEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:Enumeration" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_vvfxEBD-EdyybZnLxHsjyA"/>
+          </eAnnotations>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THYMWEEeOOK-8sj3sylQ" name="incr"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THYcWEEeOOK-8sj3sylQ" name="decr" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6THYsWEEeOOK-8sj3sylQ" name="MARTE_Library_MARTE_PrimitivesTypes_Real" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THY8WEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_beo90AnpEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_C6THZMWEEeOOK-8sj3sylQ" name="MARTE_Library_MeasurementUnits_TimeUnitKind">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THZcWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:Enumeration" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_Iaa3gA4yEdysTsAUPnp57Q"/>
+          </eAnnotations>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THZsWEEeOOK-8sj3sylQ" name="s"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THZ8WEEeOOK-8sj3sylQ" name="tick" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THaMWEEeOOK-8sj3sylQ" name="ms" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THacWEEeOOK-8sj3sylQ" name="us" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THasWEEeOOK-8sj3sylQ" name="min" value="4"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THa8WEEeOOK-8sj3sylQ" name="hrs" value="5"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_C6THbMWEEeOOK-8sj3sylQ" name="day" value="6"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6THbcWEEeOOK-8sj3sylQ" name="MARTE_Library_MARTE_PrimitivesTypes_String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THbsWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_C6THb8WEEeOOK-8sj3sylQ" name="AperiodicThread" eSuperTypes="_C6TG98WEEeOOK-8sj3sylQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6THcMWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6YmgcWEEeOOK-8sj3sylQ" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6YmgsWEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_C6abssWEEeOOK-8sj3sylQ" name="NFP_Duration" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6abs8WEEeOOK-8sj3sylQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:DataType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_kMwX8BFREdyUJeMeN__D-A"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_LHkJUcBgEeOUtrDJLDoM0w" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_LHkJUMBgEeOUtrDJLDoM0w/15" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJUsBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHpB2cBgEeOUtrDJLDoM0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB2sBgEeOUtrDJLDoM0w" key="Version" value="0.0.16"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB28BgEeOUtrDJLDoM0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB3MBgEeOUtrDJLDoM0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB3cBgEeOUtrDJLDoM0w" key="Date" value="2014-04-10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpB3sBgEeOUtrDJLDoM0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHkJU8BgEeOUtrDJLDoM0w" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJVMBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_LHkJVcBgEeOUtrDJLDoM0w" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_LHkJWMBgEeOUtrDJLDoM0w" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHkJWMBgEeOUtrDJLDoM0w" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJWcBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHkJWsBgEeOUtrDJLDoM0w" name="priority" ordered="false" lowerBound="1" eType="_LHkJXcBgEeOUtrDJLDoM0w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_LHkJXcBgEeOUtrDJLDoM0w" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJXsBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHkJX8BgEeOUtrDJLDoM0w" name="PeriodicThread" eSuperTypes="_LHkJWMBgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJYMBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHkJYcBgEeOUtrDJLDoM0w" name="period" ordered="false" lowerBound="1" eType="_LHkJXcBgEeOUtrDJLDoM0w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHkJZMBgEeOUtrDJLDoM0w" name="AperiodicThread" eSuperTypes="_LHkJWMBgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHkJZcBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_xAFwcVW_EeOFHrLWOoIfiA" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_xAFwcFW_EeOFHrLWOoIfiA/14" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFwclW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xALQAFW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQAVW_EeOFHrLWOoIfiA" key="Version" value="0.0.15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQAlW_EeOFHrLWOoIfiA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQA1W_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQBFW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQBVW_EeOFHrLWOoIfiA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAFwc1W_EeOFHrLWOoIfiA" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFwdFW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xAFwdVW_EeOFHrLWOoIfiA" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_xAFweFW_EeOFHrLWOoIfiA" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAFweFW_EeOFHrLWOoIfiA" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFweVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_xAFwelW_EeOFHrLWOoIfiA" name="priority" ordered="false" lowerBound="1" eType="_xAFwfVW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_xAFwfVW_EeOFHrLWOoIfiA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFwflW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAFwf1W_EeOFHrLWOoIfiA" name="PeriodicThread" eSuperTypes="_xAFweFW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFwgFW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_xAFwgVW_EeOFHrLWOoIfiA" name="period" ordered="false" lowerBound="1" eType="_xAFwfVW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAFwhFW_EeOFHrLWOoIfiA" name="AperiodicThread" eSuperTypes="_xAFweFW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAFwhVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_N7_7kVW_EeOFHrLWOoIfiA" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_N7_7kFW_EeOFHrLWOoIfiA/13" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7klW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N8ENAVW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENAlW_EeOFHrLWOoIfiA" key="Version" value="0.0.14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENA1W_EeOFHrLWOoIfiA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENBFW_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENBVW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENBlW_EeOFHrLWOoIfiA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7_7k1W_EeOFHrLWOoIfiA" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7lFW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_N7_7lVW_EeOFHrLWOoIfiA" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_N7_7mFW_EeOFHrLWOoIfiA" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7_7mFW_EeOFHrLWOoIfiA" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7mVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_N7_7mlW_EeOFHrLWOoIfiA" name="priority" ordered="false" lowerBound="1" eType="_N7_7nVW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_N7_7nVW_EeOFHrLWOoIfiA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7nlW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7_7n1W_EeOFHrLWOoIfiA" name="PeriodicThread" eSuperTypes="_N7_7mFW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7oFW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_N7_7oVW_EeOFHrLWOoIfiA" name="period" ordered="false" lowerBound="1" eType="_N7_7nVW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_N7_7pFW_EeOFHrLWOoIfiA" name="AperiodicThread" eSuperTypes="_N7_7mFW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7_7pVW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_WL35UVW6EeOQ240bS7TiPg" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_WL35UFW6EeOQ240bS7TiPg/12" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35UlW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL9Y6VW6EeOQ240bS7TiPg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y6lW6EeOQ240bS7TiPg" key="Version" value="0.0.13"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y61W6EeOQ240bS7TiPg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y7FW6EeOQ240bS7TiPg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y7VW6EeOQ240bS7TiPg" key="Date" value="2013-11-25"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WL9Y7lW6EeOQ240bS7TiPg" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WL35U1W6EeOQ240bS7TiPg" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35VFW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WL35VVW6EeOQ240bS7TiPg" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_WL35WFW6EeOQ240bS7TiPg" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WL35WFW6EeOQ240bS7TiPg" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35WVW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_WL35WlW6EeOQ240bS7TiPg" name="priority" ordered="false" lowerBound="1" eType="_WL35XVW6EeOQ240bS7TiPg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_WL35XVW6EeOQ240bS7TiPg" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35XlW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WL35X1W6EeOQ240bS7TiPg" name="PeriodicThread" eSuperTypes="_WL35WFW6EeOQ240bS7TiPg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35YFW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_WL35YVW6EeOQ240bS7TiPg" name="period" ordered="false" lowerBound="1" eType="_WL35XVW6EeOQ240bS7TiPg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WL35ZFW6EeOQ240bS7TiPg" name="AperiodicThread" eSuperTypes="_WL35WFW6EeOQ240bS7TiPg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WL35ZVW6EeOQ240bS7TiPg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_Qu7KMUx_EeODI5Tl-qNSOg" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_Qu7KMEx_EeODI5Tl-qNSOg/11" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KMkx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu-0mUx_EeODI5Tl-qNSOg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0mkx_EeODI5Tl-qNSOg" key="Version" value="0.0.12"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0m0x_EeODI5Tl-qNSOg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0nEx_EeODI5Tl-qNSOg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0nUx_EeODI5Tl-qNSOg" key="Date" value="2013-11-13"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qu-0nkx_EeODI5Tl-qNSOg" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qu7KM0x_EeODI5Tl-qNSOg" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KNEx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qu7KNUx_EeODI5Tl-qNSOg" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_Qu7KOEx_EeODI5Tl-qNSOg" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qu7KOEx_EeODI5Tl-qNSOg" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KOUx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Qu7KOkx_EeODI5Tl-qNSOg" name="priority" ordered="false" lowerBound="1" eType="_Qu7KPUx_EeODI5Tl-qNSOg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_Qu7KPUx_EeODI5Tl-qNSOg" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KPkx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qu7KP0x_EeODI5Tl-qNSOg" name="PeriodicThread" eSuperTypes="_Qu7KOEx_EeODI5Tl-qNSOg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KQEx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Qu7KQUx_EeODI5Tl-qNSOg" name="period" ordered="false" lowerBound="1" eType="_Qu7KPUx_EeODI5Tl-qNSOg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qu7KREx_EeODI5Tl-qNSOg" name="AperiodicThread" eSuperTypes="_Qu7KOEx_EeODI5Tl-qNSOg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qu7KRUx_EeODI5Tl-qNSOg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_83nswUKzEeOqcoZgfU4APw" name="Concurrency" nsURI="http://Mapping/schemas/Concurrency/_83nswEKzEeOqcoZgfU4APw/10" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83nswkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83rXKUKzEeOqcoZgfU4APw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXKkKzEeOqcoZgfU4APw" key="Version" value="0.0.11"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXK0KzEeOqcoZgfU4APw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXLEKzEeOqcoZgfU4APw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXLUKzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83rXLkKzEeOqcoZgfU4APw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_83nsw0KzEeOqcoZgfU4APw" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83nsxEKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_83nsxUKzEeOqcoZgfU4APw" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_83nsyEKzEeOqcoZgfU4APw" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_83nsyEKzEeOqcoZgfU4APw" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83nsyUKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_83nsykKzEeOqcoZgfU4APw" name="priority" ordered="false" lowerBound="1" eType="_83nszUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_83nszUKzEeOqcoZgfU4APw" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83nszkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_83nsz0KzEeOqcoZgfU4APw" name="PeriodicThread" eSuperTypes="_83nsyEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83ns0EKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_83ns0UKzEeOqcoZgfU4APw" name="period" ordered="false" lowerBound="1" eType="_83nszUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_83ns1EKzEeOqcoZgfU4APw" name="AperiodicThread" eSuperTypes="_83nsyEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83ns1UKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_WmR4wUKzEeOqcoZgfU4APw" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_WmR4wEKzEeOqcoZgfU4APw/9" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR4wkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmVjI0KzEeOqcoZgfU4APw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmVjJEKzEeOqcoZgfU4APw" key="Version" value="0.0.10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmVjJUKzEeOqcoZgfU4APw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmVjJkKzEeOqcoZgfU4APw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmVjJ0KzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WmVjKEKzEeOqcoZgfU4APw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WmR4w0KzEeOqcoZgfU4APw" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR4xEKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WmR4xUKzEeOqcoZgfU4APw" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_WmR4yEKzEeOqcoZgfU4APw" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WmR4yEKzEeOqcoZgfU4APw" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR4yUKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_WmR4ykKzEeOqcoZgfU4APw" name="priority" ordered="false" lowerBound="1" eType="_WmR4zUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_WmR4zUKzEeOqcoZgfU4APw" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR4zkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WmR4z0KzEeOqcoZgfU4APw" name="PeriodicThread" eSuperTypes="_WmR4yEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR40EKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_WmR40UKzEeOqcoZgfU4APw" name="period" ordered="false" lowerBound="1" eType="_WmR4zUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_WmR41EKzEeOqcoZgfU4APw" name="AperiodicThread" eSuperTypes="_WmR4yEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WmR41UKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_EEVnkUKzEeOqcoZgfU4APw" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_EEVnkEKzEeOqcoZgfU4APw/8" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnkkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEZR8kKzEeOqcoZgfU4APw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEZR80KzEeOqcoZgfU4APw" key="Version" value="0.0.9"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEZR9EKzEeOqcoZgfU4APw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEZR9UKzEeOqcoZgfU4APw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEZR9kKzEeOqcoZgfU4APw" key="Date" value="2013-11-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEZR90KzEeOqcoZgfU4APw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EEVnk0KzEeOqcoZgfU4APw" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnlEKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EEVnlUKzEeOqcoZgfU4APw" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_EEVnmEKzEeOqcoZgfU4APw" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EEVnmEKzEeOqcoZgfU4APw" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnmUKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EEVnmkKzEeOqcoZgfU4APw" name="priority" ordered="false" lowerBound="1" eType="_EEVnnUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_EEVnnUKzEeOqcoZgfU4APw" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnnkKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EEVnn0KzEeOqcoZgfU4APw" name="PeriodicThread" eSuperTypes="_EEVnmEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnoEKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EEVnoUKzEeOqcoZgfU4APw" name="period" ordered="false" lowerBound="1" eType="_EEVnnUKzEeOqcoZgfU4APw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EEVnpEKzEeOqcoZgfU4APw" name="AperiodicThread" eSuperTypes="_EEVnmEKzEeOqcoZgfU4APw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEVnpUKzEeOqcoZgfU4APw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_B_7OwDf9EeOB4Pn9C2Kuiw" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_B_6nsDf9EeOB4Pn9C2Kuiw/7" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7OwTf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCZT8Df9EeOB4Pn9C2Kuiw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCZT8Tf9EeOB4Pn9C2Kuiw" key="Version" value="0.0.8"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCZT8jf9EeOB4Pn9C2Kuiw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCZT8zf9EeOB4Pn9C2Kuiw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCZT9Df9EeOB4Pn9C2Kuiw" key="Date" value="2013-10-18"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCZT9Tf9EeOB4Pn9C2Kuiw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_B_7Owjf9EeOB4Pn9C2Kuiw" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7Owzf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_B_7OxDf9EeOB4Pn9C2Kuiw" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_B_7Oxzf9EeOB4Pn9C2Kuiw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_B_7Oxzf9EeOB4Pn9C2Kuiw" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7OyDf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_B_7OyTf9EeOB4Pn9C2Kuiw" name="priority" ordered="false" lowerBound="1" eType="_CBNoMDf9EeOB4Pn9C2Kuiw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_B_7OzDf9EeOB4Pn9C2Kuiw" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7OzTf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_B_7Ozjf9EeOB4Pn9C2Kuiw" name="PeriodicThread" eSuperTypes="_B_7Oxzf9EeOB4Pn9C2Kuiw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7Ozzf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_B_7O0Df9EeOB4Pn9C2Kuiw" name="period" ordered="false" lowerBound="1" eType="_CBNoMDf9EeOB4Pn9C2Kuiw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_B_7O0zf9EeOB4Pn9C2Kuiw" name="AperiodicThread" eSuperTypes="_B_7Oxzf9EeOB4Pn9C2Kuiw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_7O1Df9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CBNoMDf9EeOB4Pn9C2Kuiw" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CBNoMTf9EeOB4Pn9C2Kuiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_i3yukTWKEeOXq-IAh0J76Q" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_i3yukDWKEeOXq-IAh0J76Q/6" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yukjWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i6SB4DWKEeOXq-IAh0J76Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i6SB4TWKEeOXq-IAh0J76Q" key="Version" value="0.0.7"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i6SB4jWKEeOXq-IAh0J76Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i6SB4zWKEeOXq-IAh0J76Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i6SB5DWKEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i6SB5TWKEeOXq-IAh0J76Q" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i3yukzWKEeOXq-IAh0J76Q" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yulDWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i3yulTWKEeOXq-IAh0J76Q" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_i3yumDWKEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i3yumDWKEeOXq-IAh0J76Q" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yumTWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_i3yumjWKEeOXq-IAh0J76Q" name="priority" ordered="false" lowerBound="1" eType="_i5LOoDWKEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_i3yunTWKEeOXq-IAh0J76Q" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yunjWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i3yunzWKEeOXq-IAh0J76Q" name="PeriodicThread" eSuperTypes="_i3yumDWKEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yuoDWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_i3yuoTWKEeOXq-IAh0J76Q" name="period" ordered="false" lowerBound="1" eType="_i5LOoDWKEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i3yupDWKEeOXq-IAh0J76Q" name="AperiodicThread" eSuperTypes="_i3yumDWKEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i3yupTWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_i5LOoDWKEeOXq-IAh0J76Q" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i5LOoTWKEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_0W1NwTWJEeOXq-IAh0J76Q" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_0W1NwDWJEeOXq-IAh0J76Q/5" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1NwjWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0XTu4DWJEeOXq-IAh0J76Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XTu4TWJEeOXq-IAh0J76Q" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XTu4jWJEeOXq-IAh0J76Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XTu4zWJEeOXq-IAh0J76Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XTu5DWJEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XTu5TWJEeOXq-IAh0J76Q" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0W1NwzWJEeOXq-IAh0J76Q" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1NxDWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0W1NxTWJEeOXq-IAh0J76Q" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_0W1NyDWJEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0W1NyDWJEeOXq-IAh0J76Q" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1NyTWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0W1NyjWJEeOXq-IAh0J76Q" name="priority" ordered="false" lowerBound="1" eType="_0XCpIDWJEeOXq-IAh0J76Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0W1NzDWJEeOXq-IAh0J76Q" name="impl" ordered="false" lowerBound="1" eType="_0W1N0TWJEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_0W1NzzWJEeOXq-IAh0J76Q" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1N0DWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0W1N0TWJEeOXq-IAh0J76Q" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1N0jWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0W1N0zWJEeOXq-IAh0J76Q" name="abstr" ordered="false" lowerBound="1" eType="_0W1NyDWJEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0W1N1jWJEeOXq-IAh0J76Q" name="PeriodicThread" eSuperTypes="_0W1NyDWJEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1N1zWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0W1N2DWJEeOXq-IAh0J76Q" name="period" ordered="false" lowerBound="1" eType="_0XCpIDWJEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0W1N2zWJEeOXq-IAh0J76Q" name="AperiodicThread" eSuperTypes="_0W1NyDWJEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0W1N3DWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_0XCpIDWJEeOXq-IAh0J76Q" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0XCpITWJEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_f3ZAATWHEeOXq-IAh0J76Q" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_f3ZAADWHEeOXq-IAh0J76Q/4" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZAAjWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f33hIDWHEeOXq-IAh0J76Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f33hITWHEeOXq-IAh0J76Q" key="Version" value="0.0.5"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f33hIjWHEeOXq-IAh0J76Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f33hIzWHEeOXq-IAh0J76Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f33hJDWHEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f33hJTWHEeOXq-IAh0J76Q" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_f3ZAAzWHEeOXq-IAh0J76Q" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZABDWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_f3ZABTWHEeOXq-IAh0J76Q" name="threads" ordered="false" lowerBound="1" upperBound="-1" eType="_f3ZACDWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_f3ZACDWHEeOXq-IAh0J76Q" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZACTWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_f3ZACjWHEeOXq-IAh0J76Q" name="priority" ordered="false" lowerBound="1" eType="_f3mbYDWHEeOXq-IAh0J76Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_f3ZADDWHEeOXq-IAh0J76Q" name="impl" ordered="false" lowerBound="1" eType="_f3ZAETWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_f3ZADzWHEeOXq-IAh0J76Q" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZAEDWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_f3ZAETWHEeOXq-IAh0J76Q" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZAEjWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_f3ZAEzWHEeOXq-IAh0J76Q" name="abstr" ordered="false" lowerBound="1" eType="_f3ZACDWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_f3ZAFjWHEeOXq-IAh0J76Q" name="PeriodicThread" eSuperTypes="_f3ZACDWHEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZAFzWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_f3ZAGDWHEeOXq-IAh0J76Q" name="period" ordered="false" lowerBound="1" eType="_f3mbYDWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_f3ZAGzWHEeOXq-IAh0J76Q" name="AperiodicThread" eSuperTypes="_f3ZACDWHEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3ZAHDWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_f3mbYDWHEeOXq-IAh0J76Q" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3mbYTWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_CCPVMDWHEeOXq-IAh0J76Q" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_CCOHEDWHEeOXq-IAh0J76Q/3" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVMTWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCt2UDWHEeOXq-IAh0J76Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCt2UTWHEeOXq-IAh0J76Q" key="Version" value="0.0.4"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCt2UjWHEeOXq-IAh0J76Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCt2UzWHEeOXq-IAh0J76Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCt2VDWHEeOXq-IAh0J76Q" key="Date" value="2013-10-15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCt2VTWHEeOXq-IAh0J76Q" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCPVMjWHEeOXq-IAh0J76Q" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVMzWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCPVNDWHEeOXq-IAh0J76Q" name="threads" ordered="false" lowerBound="1" eType="_CCPVNzWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCPVNzWHEeOXq-IAh0J76Q" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVODWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CCPVOTWHEeOXq-IAh0J76Q" name="priority" ordered="false" lowerBound="1" eType="_CCdXoDWHEeOXq-IAh0J76Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCPVOzWHEeOXq-IAh0J76Q" name="impl" ordered="false" lowerBound="1" eType="_CCPVQDWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCPVPjWHEeOXq-IAh0J76Q" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVPzWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCPVQDWHEeOXq-IAh0J76Q" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVQTWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCPVQjWHEeOXq-IAh0J76Q" name="abstr" ordered="false" lowerBound="1" eType="_CCPVNzWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCPVRTWHEeOXq-IAh0J76Q" name="PeriodicThread" eSuperTypes="_CCPVNzWHEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVRjWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CCPVRzWHEeOXq-IAh0J76Q" name="period" ordered="false" lowerBound="1" eType="_CCdXoDWHEeOXq-IAh0J76Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCPVSjWHEeOXq-IAh0J76Q" name="AperiodicThread" eSuperTypes="_CCPVNzWHEeOXq-IAh0J76Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCPVSzWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCdXoDWHEeOXq-IAh0J76Q" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCdXoTWHEeOXq-IAh0J76Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_5MFx8TTYEeOkgqCnktgOxA" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_5MFx8DTYEeOkgqCnktgOxA/2" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFx8jTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5PedIDTYEeOkgqCnktgOxA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5PedITTYEeOkgqCnktgOxA" key="Version" value="0.0.3"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5PedIjTYEeOkgqCnktgOxA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5PedIzTYEeOkgqCnktgOxA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5PedJDTYEeOkgqCnktgOxA" key="Date" value="2013-10-14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5PedJTTYEeOkgqCnktgOxA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_5MFx8zTYEeOkgqCnktgOxA" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFx9DTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_5MFx9jTYEeOkgqCnktgOxA" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFx9zTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5MFx-DTYEeOkgqCnktgOxA" name="priority" ordered="false" lowerBound="1" eType="_5NeSADTYEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5MFx-jTYEeOkgqCnktgOxA" name="impl" ordered="false" lowerBound="1" eType="_5MFx_zTYEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_5MFx_TTYEeOkgqCnktgOxA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFx_jTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_5MFx_zTYEeOkgqCnktgOxA" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFyADTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5MFyATTYEeOkgqCnktgOxA" name="abstr" ordered="false" lowerBound="1" eType="_5MFx9jTYEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_5MFyBDTYEeOkgqCnktgOxA" name="PeriodicThread" eSuperTypes="_5MFx9jTYEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFyBTTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5MFyBjTYEeOkgqCnktgOxA" name="period" ordered="false" lowerBound="1" eType="_5NeSADTYEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_5MFyCTTYEeOkgqCnktgOxA" name="AperiodicThread" eSuperTypes="_5MFx9jTYEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MFyCjTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_5NeSADTYEeOkgqCnktgOxA" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5NeSATTYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_3rO1cTTTEeOkgqCnktgOxA" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_3rO1cDTTEeOkgqCnktgOxA/1" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1cjTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3uMp4DTTEeOkgqCnktgOxA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3uMp4TTTEeOkgqCnktgOxA" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3uMp4jTTEeOkgqCnktgOxA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3uMp4zTTEeOkgqCnktgOxA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3uMp5DTTEeOkgqCnktgOxA" key="Date" value="2013-10-14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3uMp5TTTEeOkgqCnktgOxA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3rO1czTTEeOkgqCnktgOxA" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1dDTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3rO1djTTEeOkgqCnktgOxA" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1dzTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3rO1eDTTEeOkgqCnktgOxA" name="priority" ordered="false" lowerBound="1" eType="_3sjrIDTTEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3rO1ejTTEeOkgqCnktgOxA" name="impl" ordered="false" lowerBound="1" eType="_3rO1fzTTEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_3rO1fTTTEeOkgqCnktgOxA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1fjTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3rO1fzTTEeOkgqCnktgOxA" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1gDTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3rO1gjTTEeOkgqCnktgOxA" name="PeriodicThread" eSuperTypes="_3rO1djTTEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rO1gzTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3rO1hDTTEeOkgqCnktgOxA" name="period" ordered="false" lowerBound="1" eType="_3sjrIDTTEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3rPcgjTTEeOkgqCnktgOxA" name="AperiodicThread" eSuperTypes="_3rO1djTTEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rPcgzTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_3sjrIDTTEeOkgqCnktgOxA" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3sjrITTTEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_QoovMDJYEeOkgqCnktgOxA" name="Concurrency" nsURI="http://ConcurrencyAndInteraction/schemas/Concurrency/_QoVNMDJYEeOkgqCnktgOxA/0" nsPrefix="Concurrency">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovMTJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QrufcDJYEeOkgqCnktgOxA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QrufcTJYEeOkgqCnktgOxA" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QrufcjJYEeOkgqCnktgOxA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QrufczJYEeOkgqCnktgOxA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QrufdDJYEeOkgqCnktgOxA" key="Date" value="2013-10-11"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QrufdTJYEeOkgqCnktgOxA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QoovMjJYEeOkgqCnktgOxA" name="Process">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovMzJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_YchfEDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QoovNTJYEeOkgqCnktgOxA" name="Thread" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovNjJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aZ0SMDJUEeOkgqCnktgOxA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QoovNzJYEeOkgqCnktgOxA" name="priority" ordered="false" lowerBound="1" eType="_QqHV4DJYEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_QoovOTJYEeOkgqCnktgOxA" name="impl" ordered="false" lowerBound="1" eType="_QoovPjJYEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_QoovPDJYEeOkgqCnktgOxA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovPTJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QoovPjJYEeOkgqCnktgOxA" name="ThreadImplementation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovPzJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QoovQTJYEeOkgqCnktgOxA" name="PeriodicThread" eSuperTypes="_QoovNTJYEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovQjJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rtjD0DJUEeOkgqCnktgOxA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QoovQzJYEeOkgqCnktgOxA" name="period" ordered="false" lowerBound="1" eType="_QqHV4DJYEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QoovRjJYEeOkgqCnktgOxA" name="AperiodicThread" eSuperTypes="_QoovNTJYEeOkgqCnktgOxA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoovRzJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_11F7kDJUEeOkgqCnktgOxA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_QqHV4DJYEeOkgqCnktgOxA" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QqHV4TJYEeOkgqCnktgOxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TcRtwDJTEeOkgqCnktgOxA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_WNYjcDJTEeOkgqCnktgOxA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_32MVwMWCEeOwi5Gjkosa2g">
+      <importedPackage xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_l6ms8A74EdyML4mHwjNDrw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_YchfEDJUEeOkgqCnktgOxA" name="Process">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Sk-AYDJVEeOkgqCnktgOxA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lDrUIDWGEeOXq-IAh0J76Q" name="threads" type="_aZ0SMDJUEeOkgqCnktgOxA" aggregation="composite" association="_lDvlkDWGEeOXq-IAh0J76Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lDrUITWGEeOXq-IAh0J76Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lDrUIjWGEeOXq-IAh0J76Q" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_aZ0SMDJUEeOkgqCnktgOxA" name="Thread" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TN5ooDJVEeOkgqCnktgOxA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dRYVMDJUEeOkgqCnktgOxA" name="priority">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_rtjD0DJUEeOkgqCnktgOxA" name="PeriodicThread">
+      <generalization xmi:type="uml:Generalization" xmi:id="_T5AbIDJVEeOkgqCnktgOxA" general="_aZ0SMDJUEeOkgqCnktgOxA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tZQ-wDJUEeOkgqCnktgOxA" name="period">
+        <type xmi:type="uml:DataType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_kMwX8BFREdyUJeMeN__D-A"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_11F7kDJUEeOkgqCnktgOxA" name="AperiodicThread">
+      <generalization xmi:type="uml:Generalization" xmi:id="_UfcJADJVEeOkgqCnktgOxA" general="_aZ0SMDJUEeOkgqCnktgOxA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lDvlkDWGEeOXq-IAh0J76Q" name="process_thread_1" memberEnd="_lDvlkTWGEeOXq-IAh0J76Q _lDrUIDWGEeOXq-IAh0J76Q">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lDvlkTWGEeOXq-IAh0J76Q" name="process" type="_YchfEDJUEeOkgqCnktgOxA" association="_lDvlkDWGEeOXq-IAh0J76Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lDvlkjWGEeOXq-IAh0J76Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lDvlkzWGEeOXq-IAh0J76Q" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_A-2lIFW-EeOFHrLWOoIfiA" name="Allocation">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N8C-4VW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_Px5k4FO1EeSj9tgZpcmhcg" name="Allocation" nsURI="http://Mapping/schemas/Allocation/_Px3IoFO1EeSj9tgZpcmhcg/3" nsPrefix="Allocation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k4VO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PyIOYFO1EeSj9tgZpcmhcg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PyIOYVO1EeSj9tgZpcmhcg" key="Version" value="0.0.17"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PyIOYlO1EeSj9tgZpcmhcg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PyIOY1O1EeSj9tgZpcmhcg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PyIOZFO1EeSj9tgZpcmhcg" key="Date" value="2014-10-14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PyIOZVO1EeSj9tgZpcmhcg" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k4lO1EeSj9tgZpcmhcg" name="Allocation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k41O1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LUhYcFW-EeOFHrLWOoIfiA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations/Allocate"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k5VO1EeSj9tgZpcmhcg" name="FrameToBusMap" eSuperTypes="_Px5k4lO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k5lO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_NxntAFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Px5k51O1EeSj9tgZpcmhcg" name="offset" ordered="false" lowerBound="1" eType="_Px8oMVO1EeSj9tgZpcmhcg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_Px5k6lO1EeSj9tgZpcmhcg" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k61O1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k7FO1EeSj9tgZpcmhcg" name="FunctionToThreadMap" eSuperTypes="_Px5k4lO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k7VO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cWlLQFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Px5k7lO1EeSj9tgZpcmhcg" name="mapOrder" ordered="false" lowerBound="1" eType="_Px8oMVO1EeSj9tgZpcmhcg"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Px5k8FO1EeSj9tgZpcmhcg" name="execTime" ordered="false" lowerBound="1" eType="_PyCHwFO1EeSj9tgZpcmhcg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_Px5k81O1EeSj9tgZpcmhcg" name="MARTE_Library_MARTE_PrimitivesTypes_String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k9FO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k9VO1EeSj9tgZpcmhcg" name="SignalMap" abstract="true" eSuperTypes="_Px5k4lO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k9lO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qtXDkFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k-FO1EeSj9tgZpcmhcg" name="ThreadToCPUMap" eSuperTypes="_Px5k4lO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5k-VO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uCLqUFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Px5k-lO1EeSj9tgZpcmhcg" name="taskSetIdx" ordered="false" lowerBound="1" eType="_Px8oMVO1EeSj9tgZpcmhcg"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Px5k_FO1EeSj9tgZpcmhcg" name="coreAfn" ordered="false" lowerBound="1" eType="_Px8oMVO1EeSj9tgZpcmhcg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5k_1O1EeSj9tgZpcmhcg" name="SignalToSharedResMap" eSuperTypes="_Px5k9VO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5lAFO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__brswFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Px5lAlO1EeSj9tgZpcmhcg" name="SignalToFrameMap" eSuperTypes="_Px5k9VO1EeSj9tgZpcmhcg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px5lA1O1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DqFm4FW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_Px8oMVO1EeSj9tgZpcmhcg" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Px8oMlO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_PyCHwFO1EeSj9tgZpcmhcg" name="String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PyCHwVO1EeSj9tgZpcmhcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_LHoawcBgEeOUtrDJLDoM0w" name="Allocation" nsURI="http://Mapping/schemas/Allocation/_LHoawMBgEeOUtrDJLDoM0w/2" nsPrefix="Allocation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoawsBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHpo58BgEeOUtrDJLDoM0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpo6MBgEeOUtrDJLDoM0w" key="Version" value="0.0.16"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpo6cBgEeOUtrDJLDoM0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpo6sBgEeOUtrDJLDoM0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpo68BgEeOUtrDJLDoM0w" key="Date" value="2014-04-10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHpo7MBgEeOUtrDJLDoM0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoaw8BgEeOUtrDJLDoM0w" name="Allocation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoaxMBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LUhYcFW-EeOFHrLWOoIfiA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations/Allocate"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoaxsBgEeOUtrDJLDoM0w" name="FrameToBusMap" eSuperTypes="_LHoaw8BgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoax8BgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_NxntAFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHoayMBgEeOUtrDJLDoM0w" name="offset" ordered="false" lowerBound="1" eType="_LHoay8BgEeOUtrDJLDoM0w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_LHoay8BgEeOUtrDJLDoM0w" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoazMBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoazcBgEeOUtrDJLDoM0w" name="FunctionToThreadMap" eSuperTypes="_LHoaw8BgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoazsBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cWlLQFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHoaz8BgEeOUtrDJLDoM0w" name="mapOrder" ordered="false" lowerBound="1" eType="_LHoay8BgEeOUtrDJLDoM0w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoa0sBgEeOUtrDJLDoM0w" name="SignalMap" abstract="true" eSuperTypes="_LHoaw8BgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoa08BgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qtXDkFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoa1cBgEeOUtrDJLDoM0w" name="ThreadToCPUMap" eSuperTypes="_LHoaw8BgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoa1sBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uCLqUFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHoa18BgEeOUtrDJLDoM0w" name="taskSetIdx" ordered="false" lowerBound="1" eType="_LHoay8BgEeOUtrDJLDoM0w"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LHoa2cBgEeOUtrDJLDoM0w" name="coreAfn" ordered="false" lowerBound="1" eType="_LHoay8BgEeOUtrDJLDoM0w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoa3MBgEeOUtrDJLDoM0w" name="SignalToSharedResMap" eSuperTypes="_LHoa0sBgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoa3cBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__brswFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LHoa38BgEeOUtrDJLDoM0w" name="SignalToFrameMap" eSuperTypes="_LHoa0sBgEeOUtrDJLDoM0w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHoa4MBgEeOUtrDJLDoM0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DqFm4FW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_xAKB4VW_EeOFHrLWOoIfiA" name="Allocation" nsURI="http://Mapping/schemas/Allocation/_xAKB4FW_EeOFHrLWOoIfiA/1" nsPrefix="Allocation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB4lW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xALQDlW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQD1W_EeOFHrLWOoIfiA" key="Version" value="0.0.15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQEFW_EeOFHrLWOoIfiA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQEVW_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQElW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xALQE1W_EeOFHrLWOoIfiA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB41W_EeOFHrLWOoIfiA" name="Allocation" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB5FW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LUhYcFW-EeOFHrLWOoIfiA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations/Allocate"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB5lW_EeOFHrLWOoIfiA" name="FrameToBusMap" eSuperTypes="_xAKB41W_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB51W_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_NxntAFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_xAKB6FW_EeOFHrLWOoIfiA" name="offset" ordered="false" lowerBound="1" eType="_xAKB61W_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_xAKB61W_EeOFHrLWOoIfiA" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB7FW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB7VW_EeOFHrLWOoIfiA" name="FunctionToThreadMap" eSuperTypes="_xAKB41W_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB7lW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cWlLQFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_xAKB71W_EeOFHrLWOoIfiA" name="mapOrder" ordered="false" lowerBound="1" eType="_xAKB61W_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB8lW_EeOFHrLWOoIfiA" name="SignalMap" abstract="true" eSuperTypes="_xAKB41W_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB81W_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qtXDkFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB9VW_EeOFHrLWOoIfiA" name="ThreadToCPUMap" eSuperTypes="_xAKB41W_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB9lW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uCLqUFW-EeOFHrLWOoIfiA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_xAKB91W_EeOFHrLWOoIfiA" name="coreAfn" ordered="false" lowerBound="1" eType="_xAKB61W_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB-lW_EeOFHrLWOoIfiA" name="SignalToSharedResMap" eSuperTypes="_xAKB8lW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB-1W_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__brswFW-EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xAKB_VW_EeOFHrLWOoIfiA" name="SignalToFrameMap" eSuperTypes="_xAKB8lW_EeOFHrLWOoIfiA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xAKB_lW_EeOFHrLWOoIfiA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DqFm4FW_EeOFHrLWOoIfiA"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_N8Dl8FW_EeOFHrLWOoIfiA" name="Allocation" nsURI="http://Mapping/schemas/Allocation/_N8C-4FW_EeOFHrLWOoIfiA/0" nsPrefix="Allocation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N8ENDlW_EeOFHrLWOoIfiA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8END1W_EeOFHrLWOoIfiA" key="Version" value="0.0.14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENEFW_EeOFHrLWOoIfiA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENEVW_EeOFHrLWOoIfiA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENElW_EeOFHrLWOoIfiA" key="Date" value="2013-11-25"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8ENE1W_EeOFHrLWOoIfiA" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_EyX6EFW-EeOFHrLWOoIfiA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Gnr14FW-EeOFHrLWOoIfiA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_LUhYcFW-EeOFHrLWOoIfiA" name="Allocation" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IOowIFW_EeOFHrLWOoIfiA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_HGNjcLXnEduHWpAaWjM62w"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_NxntAFW-EeOFHrLWOoIfiA" name="FrameToBusMap">
+      <generalization xmi:type="uml:Generalization" xmi:id="_I-A-oFW_EeOFHrLWOoIfiA" general="_LUhYcFW-EeOFHrLWOoIfiA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pq3toFW-EeOFHrLWOoIfiA" name="offset">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_cWlLQFW-EeOFHrLWOoIfiA" name="FunctionToThreadMap">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Jqd08FW_EeOFHrLWOoIfiA" general="_LUhYcFW-EeOFHrLWOoIfiA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_d-OegFW-EeOFHrLWOoIfiA" name="mapOrder">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nP6j8FO0EeSLefC5vJP4yw" name="execTime" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nkBywFO0EeSLefC5vJP4yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nkDA4FO0EeSLefC5vJP4yw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_nkDn8FO0EeSLefC5vJP4yw">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_qtXDkFW-EeOFHrLWOoIfiA" name="SignalMap" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Lgm3MFW_EeOFHrLWOoIfiA" general="_LUhYcFW-EeOFHrLWOoIfiA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_uCLqUFW-EeOFHrLWOoIfiA" name="ThreadToCPUMap">
+      <generalization xmi:type="uml:Generalization" xmi:id="_KhHwIFW_EeOFHrLWOoIfiA" general="_LUhYcFW-EeOFHrLWOoIfiA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VoV14MBfEeOUtrDJLDoM0w" name="taskSetIdx">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wNfrUFW-EeOFHrLWOoIfiA" name="coreAfn">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="__brswFW-EeOFHrLWOoIfiA" name="SignalToSharedResMap">
+      <generalization xmi:type="uml:Generalization" xmi:id="_MPO3wFW_EeOFHrLWOoIfiA" general="_qtXDkFW-EeOFHrLWOoIfiA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_DqFm4FW_EeOFHrLWOoIfiA" name="SignalToFrameMap">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NAsw8FW_EeOFHrLWOoIfiA" general="_qtXDkFW-EeOFHrLWOoIfiA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_Zy5aAEfTEeS635lPv81F1g" name="Synchronization" metaclassReference="_t2TBcEfUEeS635lPv81F1g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMh54EfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_MMjIAEfyEeSTOLre7LBs5A" name="SynchroUtils" nsURI="http://Mapping/schemas/SynchroUtils/_MMgEsEfyEeSTOLre7LBs5A/0" nsPrefix="SynchroUtils">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjIAUfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/4.0.0/UML">
+          <references xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMwjYEfyEeSTOLre7LBs5A" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMwjYUfyEeSTOLre7LBs5A" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMwjYkfyEeSTOLre7LBs5A" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMwjY0fyEeSTOLre7LBs5A" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMwjZEfyEeSTOLre7LBs5A" key="Date" value="2014-09-29"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMwjZUfyEeSTOLre7LBs5A" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_MMjIAkfyEeSTOLre7LBs5A" name="SchedulingTable">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjIA0fyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_D8sGQEfUEeS635lPv81F1g"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_MMjIBEfyEeSTOLre7LBs5A" name="entries" ordered="false" lowerBound="1" upperBound="-1" eType="_MMjIB0fyEeSTOLre7LBs5A"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_MMjIB0fyEeSTOLre7LBs5A" name="SchedulingTableEntry">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjICEfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_dWOhYEfUEeS635lPv81F1g"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_MMjICUfyEeSTOLre7LBs5A" name="cycleOfExec" ordered="false" lowerBound="1" eType="_MMp1sUfyEeSTOLre7LBs5A"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_MMjIC0fyEeSTOLre7LBs5A" name="taskNms" ordered="false" lowerBound="1" upperBound="-1" eType="_MMrD0EfyEeSTOLre7LBs5A"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_MMjIDkfyEeSTOLre7LBs5A" name="MARTE_Library_MARTE_PrimitivesTypes_Integer" instanceClassName="int">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjID0fyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_MMjIEEfyEeSTOLre7LBs5A" name="MARTE_Library_MARTE_PrimitivesTypes_String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjIEUfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_MMjIEkfyEeSTOLre7LBs5A" name="Dispatcher">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjIE0fyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_o3YQYEfUEeS635lPv81F1g"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_MMjIFEfyEeSTOLre7LBs5A" name="schedTable" ordered="false" lowerBound="1" eType="_MMjIAkfyEeSTOLre7LBs5A"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_MMjIF0fyEeSTOLre7LBs5A" name="POEConstraint">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMjIGEfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_wv6S4EfUEeS635lPv81F1g"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_MMjIGUfyEeSTOLre7LBs5A" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_MMp1sUfyEeSTOLre7LBs5A" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMp1skfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_MMrD0EfyEeSTOLre7LBs5A" name="String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMrD0UfyEeSTOLre7LBs5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+          </eAnnotations>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_t2TBcEfUEeS635lPv81F1g" alias="Dependency">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+    </elementImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xo7bAEfTEeS635lPv81F1g">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_5UFv4EfTEeS635lPv81F1g">
+      <importedPackage xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_l6ms8A74EdyML4mHwjNDrw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__0rvEEfTEeS635lPv81F1g">
+      <importedPackage xmi:type="uml:Package" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_dDxjEAeNEdytasR0-Ec7ew"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_D8sGQEfUEeS635lPv81F1g" name="SchedulingTable">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Mgav8EfWEeS635lPv81F1g">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iZjTgEfjEeS635lPv81F1g" name="entries" type="_dWOhYEfUEeS635lPv81F1g" aggregation="composite" association="_iZkhoEfjEeS635lPv81F1g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iZjTgUfjEeS635lPv81F1g" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iZjTgkfjEeS635lPv81F1g" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_dWOhYEfUEeS635lPv81F1g" name="SchedulingTableEntry">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Q23f4EfjEeS635lPv81F1g">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aX8qAEfiEeS635lPv81F1g" name="cycleOfExec">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_HJ1zcAnfEdy9WM11hWri2g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_x0NgIEfiEeS635lPv81F1g" name="taskNms">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__R9CMEfjEeS635lPv81F1g" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__R-QUEfjEeS635lPv81F1g" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_o3YQYEfUEeS635lPv81F1g" name="Dispatcher">
+      <generalization xmi:type="uml:Generalization" xmi:id="_uwGh0EfVEeS635lPv81F1g">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xWq7cEfVEeS635lPv81F1g" name="schedTable" type="_D8sGQEfUEeS635lPv81F1g" aggregation="composite" association="_xWrigEfVEeS635lPv81F1g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xWq7cUfVEeS635lPv81F1g" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xWq7ckfVEeS635lPv81F1g" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_wv6S4EfUEeS635lPv81F1g" name="POEConstraint">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LrcHYEfkEeS635lPv81F1g" name="base_Dependency" association="_LrcucEfkEeS635lPv81F1g">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xWrigEfVEeS635lPv81F1g" name="dispatcher_schedulingTable_1" memberEnd="_xWrigUfVEeS635lPv81F1g _xWq7cEfVEeS635lPv81F1g">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xWrigUfVEeS635lPv81F1g" name="dispatcher" type="_o3YQYEfUEeS635lPv81F1g" association="_xWrigEfVEeS635lPv81F1g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xWrigkfVEeS635lPv81F1g" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xWrig0fVEeS635lPv81F1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_iZkhoEfjEeS635lPv81F1g" name="schedulingTable_schedulingTableEntry_1" memberEnd="_iZkhoUfjEeS635lPv81F1g _iZjTgEfjEeS635lPv81F1g">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_iZkhoUfjEeS635lPv81F1g" name="schedulingTable" type="_D8sGQEfUEeS635lPv81F1g" association="_iZkhoEfjEeS635lPv81F1g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iZkhokfjEeS635lPv81F1g" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iZkho0fjEeS635lPv81F1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_LrcucEfkEeS635lPv81F1g" name="E_POEConstraint_Dependency2" memberEnd="_LrcucUfkEeS635lPv81F1g _LrcHYEfkEeS635lPv81F1g">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_LrcucUfkEeS635lPv81F1g" name="extension_POEConstraint" type="_wv6S4EfUEeS635lPv81F1g" aggregation="composite" association="_LrcucEfkEeS635lPv81F1g"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
